@@ -1,0 +1,72 @@
+@import "typography";
+@import "mixin";
+
+* {
+    font-family: $font2;
+}
+.navbar{
+    background: linear-gradient(
+        112deg,
+        rgb(50, 61, 61) 10%,
+        rgb(148, 148, 194) 72%
+      );
+      &-brand{
+        font-family: $font-content;
+      }
+      &-nav{
+       a{
+        color:white;
+       }
+      }
+}
+.carousel{
+    padding: 20px;
+    img{
+        border-radius: 50%;
+       height: 450px;
+        object-fit: cover;
+    }
+    &-caption{
+        color: rgb(111, 21, 21);
+        background-color:rgba(213, 222, 189, 0.522);
+        padding-top:50px;
+        height: 150px;
+        z-index: 2;
+        margin-bottom:10% ;
+        p{
+            color: rgb(111, 21, 21);
+            background-color:rgba(213, 222, 189, 0.522);  
+            margin: 15px;
+        }
+    }
+    &-item::before{
+        content:'';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background-color: black;
+        border-radius: 50%;
+        z-index: 1;
+        opacity: 0.5;
+    }
+}
+.card{
+    transition:all 0.8s;
+    &:hover{
+        @include hover;
+        box-shadow: 5px 5px 15px rgb(12,12,82);
+    }
+}
+footer{
+
+  .nav-link{
+    color:gray!important ;
+  }
+}
+.login {
+    height: 50vh;
+   background: url('https://images.unsplash.com/photo-1683444805823-3de8d2fd1c80?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=872&q=80');
+   div:first-child{
+     background-color: red;
+   }
+ }

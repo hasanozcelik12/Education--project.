@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg sticky-top  d-flex justify-content-between">
+        <div class="container">
+            <div class="d-flex flex-column align-items-center">
+                <img src="image/udemig.png" width="72" height="45" alt="">
+                <a class="navbar-brand fs-6 fw-bold p-0 text-white" style="font-size: 20px;" href="#top">&ensp;
+                    Udemig</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav justify-content-end pe-5 flex-grow-1 me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" aria-current="page" href="/index.html">ANA SAYFA</a>
+                    </li>
+                    <li class="nav-item dropdown fw-bolder">
+                        <a class="nav-link dropdown-toggle fw-bold " href="#" role="button" data-bs-toggle="dropdown"
+                            aria-expanded="false">
+                            KATIL
+                        </a>
+                        <ul class="dropdown-menu bg-dark text-white">
+                            <li><a class="dropdown-item text-uppercase fw-bolder" href="/login.html">Giriş Yap</a></li>
+                            <li>
+                                <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item text-uppercase fw-bolder" href="/register.html">Kayıt Ol</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-uppercase fw-bolder" href="/blog.html">Blog</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="/about.html">HAKKIMIZDA</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link fw-bolder" href="/contact.html">BİZE ULAŞIN</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- BANNER -->
+    <div class="banner my-5">
+        <div class="container">
+            <div class="row">
+                <div class=" col-md-6 col-12 ">
+                    <span class="text-success fw-bold">UZMAN EĞİTİMİ</span>
+                    <h1 class="display-4 fw-semibold lh-base">Yeni beceriler öğrenmenin uygun kolay yolu!</h1>
+                    <p class="fw-light">Profesyoneller olarak geliştirebileceğimiz en önemli alanlardan biri bilgiye
+                        erişme ve
+                        bilgiyi paylaşma
+                        yetkinliğidir</p>
+                        <button class="btn bg-primary-subtle fw-bold p-3">KURSLARIMIZ</button>
+                </div>
+                <div class="col-md-6 col-12  mt-5 ">
+                    <div id="carouselExampleCaptions" class="carousel slide">
+                        <!-- Sayfalandırma kullanmıyoruz -->
+                        <!-- <div class="carousel-indicators">
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                        </div> -->
+                        <div class="carousel-inner">
+                          <div class="carousel-item active">
+                            <img src="image/slayt1.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>First slide label</h5>
+                              <p>Some representative placeholder content for the first slide.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="image/slayt2.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Second slide label</h5>
+                              <p>Some representative placeholder content for the second slide.</p>
+                            </div>
+                          </div>
+                          <div class="carousel-item">
+                            <img src="image/slayt3.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                              <h5>Third slide label</h5>
+                              <p>Some representative placeholder content for the third slide.</p>
+                            </div>
+                          </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                          <span class="visually-hidden">Next</span>
+                        </button>
+                      </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- EĞİTİTM ORANI -->
+    <div class="rate bg-dark mx-5 py-4 rounded-5">
+      <div class="container">
+        <div class="row ">
+          <div class="col-3  d-flex flex-column align-items-center">
+            <img src="https://www.svgrepo.com/show/513882/cake-birthday-anniversary.svg" width="64" alt="">
+            <p class="text-white fw-bolder fs-1">90</p>
+            <span class="fw-bold fs-5 text-secondary">Eğitmenler</span>
+          </div>
+          <div class="col-3  d-flex flex-column align-items-center">
+            <img src="https://www.svgrepo.com/show/121498/birthday-cake-with-one-burning-candle.svg" width="64" alt="">
+            <p class="text-white fw-bolder fs-1">120</p>
+            <span class="fw-bold fs-5 text-secondary">Kadromuz</span>
+          </div>
+          <div class="col-3  d-flex flex-column align-items-center">
+            <img src="https://www.svgrepo.com/show/513881/book-heart-love.svg" width="72" alt="">
+            <p class="text-white fw-bolder fs-1">100</p>
+            <span class="fw-bold fs-5 text-secondary">Öğrenciler</span>
+          </div>
+          <div class="col-3  d-flex flex-column align-items-center">
+            <img src="https://www.svgrepo.com/show/51394/game-player-with-headset.svg" width="64" alt="">
+            <p class="text-white fw-bolder fs-1">85</p>
+            <span class="fw-bold fs-5 text-secondary">Kütüphane</span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="album mt-5 rounded-5 bg-primary-subtle mx-4">
+      <div class="album-title text-center my-5 mb-3">
+        <p class="fw-bold fs-5 text-primary ">BLOG HABERLERİ</p>
+        <h2 class="fw-bold text-success">Blogdan Son Haberler</h2>
+        <span class="fw-bold text-secondary ">Kişisel hedeflerine ulaşmak isteyenler için nihai planlama çözümü</span>
+      </div>
+      <div class="container  mt-5">
+        <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3">
+          <div class="col">
+            <div class="card border border-light" style="width: 18rem; ">
+              <img src="data:image/jpeg;base64,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" class="card-img-top" alt="...">
+              <div class="card-body text-center bg-secondary-subtle">
+                <h5 class="card-title fw-bolder text-danger">Nicola Tesla</h5>
+                <p class="card-text text-secondary fw-bold">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-light" style="width: 18rem;">
+              <img src="https://www.muhendisbeyinler.net/wp-content/uploads/2018/07/albert-einstein-kimdir.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center bg-danger-subtle">
+                <h5 class="card-title fw-bolder text-primary">Albert Einstein</h5>
+                <p class="card-text text-success fw-bold">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card border border-light" style="width: 18rem;">
+              <img src="https://cilginfizikcilervbi.com/wp-content/uploads/2021/03/james-clerk-maxwell.jpg" class="card-img-top" alt="...">
+              <div class="card-body text-center bg-success-subtle">
+                <h5 class="card-title text-success fw-bolder">Maxwell</h5>
+                <p class="card-text text-danger fw-bold ">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <a href="#" class="btn btn-primary">Go somewhere</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+      
+    <!-- FOOTER -->
+    <footer class="bg-dark">
+     
+
+<div class="container">
+  <footer class="row row-cols-1 row-cols-sm-2 row-cols-md-5 py-5 my-5 border-top d-flex justify-content-between">
+    <div class="col-4 mb-3 text-center text-white">
+      <h5>Keşfet</h5>
+      <ul class="nav flex-column ">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Bize Ulaşın</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Hakkımzda</a></li>
+        <li class="fs-6 mt-4 d-flex gap-2 align-items-center mt-5">
+          <b class="fw-light">Bizi Takip Edin</b>
+          <i class="fa-brands fa-facebook"></i>
+          <i class="fa-brands fa-instagram"></i>
+          <i class="fa-brands fa-twitter"></i>
+          <i class="fa-brands fa-linkedin"></i>
+        </li>
+      </ul>
+    </div>
+
+    <div class="col-4 mb-3 text-center text-white">
+      <h5>Hakkımzda </h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span class="text-white fw-bolder">Tel</span>+(9)05375291226</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">hasanozcelik@gmail.com</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary"><span class="text-white fw-bolder">Yer</span>:Manisa/Turgutlu</a></li>
+      </ul>
+    </div>
+
+    <div class="col-4 mb-3 text-center text-white">
+      <h5>Dersler</h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Çocuklar için WEB</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Yetişkinler için WEB</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Yetişkinler için Mentörlük</a></li>
+      </ul>
+    </div>
+    <div class="col-4 mb-3 text-center text-white">
+      <h5>Yasal </h5>
+      <ul class="nav flex-column">
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Şartlar ve Koşullar</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gizlilik Politikası</a></li>
+        <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">İade Politikası</a></li>
+      </ul>
+    </div>
+    <hr class="text-light-emphasis w-100 mb-3">
+    
+  </footer>
+  <div class="row align-items-center ">
+    <div class="col-lg-6  ">
+     <div class="d-flex flex-column align-items-center" >
+      <img src="image/udemig.png" width="96" height="56" alt="">
+      <a class="navbar-brand fs-6 fw-bold p-0 text-white" style="font-size: 20px;" href="#top">&ensp;
+        Udemig</a>
+     </div>
+    </div>
+    <div class="col-lg-6">
+     <div class="text-center text-white">
+      @ copyright udemig 2023
+     </div>
+    </div>
+  </div>
+</div>
+
+
+
+    </footer>
+    
+
+
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+</body>
+</html>
